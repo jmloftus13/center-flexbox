@@ -1,0 +1,43 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    height: 100%;
+    justify-content: center; /*center horizontally*/
+    align-items: center; /*center vertically*/
+    background: url('../img/wow.png') bottom center no-repeat;
+    background-size: cover;
+    font-size: 1em;
+}
+
+.centered {
+    padding: 0 3.125em;
+    font-family: 'Montserrat', sans-serif;
+    background: #f16059;
+}
+
+h1 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+/*media queries*/
+
+@media and (min-width: 786px) {
+/* 786px and lower */
+    
+     h1 {
+          font-size: 3em;
+     }
+}
+
+@media (min-width: 1200px) {
+/* 601px and higher */
+    h1 {
+        font-size: 4em;
+    }
+}
+
